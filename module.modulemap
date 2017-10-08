@@ -1,7 +1,7 @@
 module Vulkan [system] {
+    header "macros.h"
     header "/usr/include/vulkan/vulkan.h"
     link "vulkan"
-    config_macros VK_USE_PLATFORM_XCB_KHR
     export *
 }
 
