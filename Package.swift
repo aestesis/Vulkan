@@ -1,4 +1,4 @@
-// swift-tools-version:4.0
+// swift-tools-version:4.2
 
 import PackageDescription
 
@@ -10,6 +10,6 @@ let package = Package(
     dependencies: [
     ],
     targets: [
-        .target(name: "Vulkan",dependencies: [])
+        .systemLibrary(name: "Vulkan")
     ]
 )
